@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(34, 33, 33);
+    padding: 5px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.divisao {
+    max-width: 800px; /* Largura máxima */
+    margin: auto; /* Centralizando o contêiner */
+    background-color: rgb(59, 179, 197); /* Cor de fundo branca */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 12px; /* Bordas arredondadas */
+    text-align: center; /* Centralizando o texto */
+}
+.botao{
+    border-radius: 10px;
+    background: rgb(59, 179, 197);
+    padding: 16px 24px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.botao:hover {
+    background: rgb(34, 33, 33);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.destaque {
+    color: #ffeb3b;
+    font-weight: bold;
+}
